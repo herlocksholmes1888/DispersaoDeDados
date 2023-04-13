@@ -6,3 +6,5 @@ sd(dataset) # standard deviation
 png(file="nooutlierboxplot.png")
 boxplot(dataset, col="blue", border="darkblue", outline=FALSE)
 dev.off()
+
+summary(dataset)
